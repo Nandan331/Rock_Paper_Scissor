@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(164, 219, 219);
+}
+h1{
+  background-color :rgb(44, 37, 37);
+  color: white;
+  text-align: center;
+  padding: 10px; 
+}
+.Images{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 50px;
+}
+img{
+    border-radius:25%
+}
+img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+.Score{
+    text-align: center;    
+}
+.Msg{
+    justify-content: center;
+    display: flex;
+}
+#Message{
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(93, 49, 49);
+    font-size: 2rem;
+    display: inline;
+    padding: 2rem;
+    border: solid 5px white;
+    border-radius: 25%; 
+
+}
+#Message:hover{
+    opacity: 60%;
+}
+.UserScore{
+    font-size: 2rem;
+}
+.MyScore{
+    font-size: 2rem;
+}
+.alert{
+   margin-top: 10px;
+
+}
+#responding{
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+}
